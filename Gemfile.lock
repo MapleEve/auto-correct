@@ -13,8 +13,6 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2)
-    autocorrect-rb (2.1.2-arm64-darwin)
-      rb_sys (>= 0.9.18)
     autocorrect-rb (2.1.2-x86_64-darwin)
       rb_sys (>= 0.9.18)
     autocorrect-rb (2.1.2-x86_64-linux)
@@ -27,13 +25,13 @@ GEM
     rake (13.0.1)
     rb_sys (0.9.31)
     thread_safe (0.3.6)
-    tzinfo (1.2.6)
+    tzinfo (1.2.11)
       thread_safe (~> 0.1)
     zeitwerk (2.2.2)
 
 PLATFORMS
-  ruby
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   activesupport
